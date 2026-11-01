@@ -16,6 +16,7 @@ def test_empty_grades():
         calculate_average([])
 from calculator import get_grade_category
 
+
 def test_grade_categories():
     assert get_grade_category(17) == "Excellent"
     assert get_grade_category(13) == "Good"
